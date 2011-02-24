@@ -196,7 +196,7 @@ ul.links.inline {
 ul.links li {
   display: inline;
   list-style-type: none;
-  padding: 0 0.5em;
+  padding: 0px;
 }
 
 .pager /* A list of page numbers when more than 1 page of content is available */ {
@@ -250,6 +250,8 @@ ul.links li {
  * Footer
  */
 #footer {
+  position:relative;
+  height:80px
 }
 
 #footer .section {
@@ -258,6 +260,18 @@ ul.links li {
 
 #footer .section a{
   color:rgb(255, 255, 255);
+}
+
+#footer ol{
+  position:absolute;
+  right:20px;
+  bottom:0px;
+  text-align:right;
+  
+}
+
+#footer li{
+  list-style-type:none;
 }
 
 #footer-message /* Wrapper for the footer message from Drupal's "Site information"

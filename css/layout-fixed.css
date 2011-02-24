@@ -42,10 +42,11 @@ body {
  * Header
  */
 #header {
+  height:150px;
 }
 
 #header .section {
-  padding-left:20px;
+  padding:0px;
 }
 
 #search-box {
