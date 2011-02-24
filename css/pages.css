@@ -253,6 +253,11 @@ ul.links li {
 }
 
 #footer .section {
+  color:rgb(255, 255, 255);
+}
+
+#footer .section a{
+  color:rgb(255, 255, 255);
 }
 
 #footer-message /* Wrapper for the footer message from Drupal's "Site information"
