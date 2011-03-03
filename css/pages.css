@@ -14,7 +14,11 @@
 body {
   margin: 0;
   padding: 0;
-  
+  font-family: "futura", Arial, sans;
+}
+
+body a{
+  font-family: "futura", Arial, sans;
 }
 
 #page-wrapper {
@@ -135,6 +139,7 @@ h2.title, /* Comment section heading */
 h2.comment-form, /* Comment form heading */
 h3.title /* Comment title */ {
   margin: 0;
+  font-family: "futura", Arial, sans;
 }
 
 tr.even /* Some tables have rows marked even or odd. */ {
